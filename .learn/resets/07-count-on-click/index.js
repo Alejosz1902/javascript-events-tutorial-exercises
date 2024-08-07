@@ -17,9 +17,4 @@ window.increaseCounter = function increaseCounter()
 }
 
 // Your code here
-let decreaseCounter = () => {
-	counter--;
-	document.getElementById('screen').innerHTML = "The counter value is "+counter;
-}
-let element = document.getElementById('decrease');
-element.addEventListener('click',decreaseCounter);
+
